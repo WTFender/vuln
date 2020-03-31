@@ -1,0 +1,32 @@
+{
+  "author": "",
+  "name": "vuln",
+  "description": "vuln testing",
+  "version": "2.1.2",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bin": {
+    "retire": "./bin/retire"
+  },
+  "main": "./lib/retire.js",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "commander": "2.5.x",
+    "https-proxy-agent": "^5.0.0",
+    "read-installed": "^4.0.3",
+    "walkdir": "0.0.7"
+  },
+  "devDependencies": {
+    "jshint": "^2.11.0",
+    "nodeunit": "^0.11.3"
+  },
+  "scripts": {
+    "test": "./test"
+  },
+  "engines": {
+    "node": ">= 6.0.0"
+  }
+}
